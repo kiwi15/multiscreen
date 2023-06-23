@@ -28,7 +28,7 @@
         app:layout_constraintVertical_bias="0.07" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/eT1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="15dp"
@@ -37,11 +37,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Enter Order 1"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText4"
+        app:layout_constraintBottom_toTopOf="@+id/eT2"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/eT2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="15dp"
@@ -50,11 +50,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Enter order 1"
-        app:layout_constraintBottom_toTopOf="@+id/editTextText5"
+        app:layout_constraintBottom_toTopOf="@+id/eT3"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@id/eT3"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="15dp"
@@ -63,17 +63,19 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Enter order 3"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="313dp"
-        android:text="ORDER"
+        android:id="@+id/btn"
+        android:layout_width="129dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="308dp"
         android:elevation="10dp"
+        android:text="ORDER"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
